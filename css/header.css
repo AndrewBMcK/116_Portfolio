@@ -48,15 +48,3 @@ nav {
     margin: 6px auto;
 }
 
-/* Toggle Function */
-/* is the checkbox unchecked? */
-/* Oldest ~ Youngest */
-#nav-check:not(:checked)~.nav-link {
-    height: 0px;
-    overflow: hidden;
-}
-
-#nav-check:checked~.nav-link {
-    height: auto;
-    overflow: auto;
-}
